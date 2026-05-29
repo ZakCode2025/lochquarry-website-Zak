@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+    background: #016111;
+    color: white;
+    padding: 0 20px;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom; /* keeps bottom visible */
+  display: block;
+}
+   
+    /*align-items: center;*/
+    text-align: center;
+    /*left: 50%;*/
+    /*translate: calc(-50%,50%);*/
+    /*transform: translateX(-50); */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: rgb(255, 153, 0);
+    flex-wrap: wrap
+}
+a:link {
+    color: #e7f254;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+ul.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap
+}
+
+ul.nav-menu li {
+    position: relative;
+    
+}
+
+ul.nav-menu > li {
+    padding: 30px;
+    cursor: pointer;
+}
+
+ul.nav-menu li:hover {
+    background: #444;
+}
+
+
+ul.nav-menu li:hover .dropdown {
+    display: block;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.section-img {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.section-img-2 {
+    width: 800px;
+    height: auto;
+    margin-top: 20px;
+}
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* added social media links */
+
+.social-links {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: translateY(-2px);
+    background: #333;
+  }
+  
+  .sr-only {
+    position: absolute;
+    left: -9999px;
+  }
+
+
+
+  
